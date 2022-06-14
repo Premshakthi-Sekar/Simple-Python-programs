@@ -1,0 +1,13 @@
+ip= input("Enter your sentence ")
+max=0
+word= ip.split()
+count=0
+for i in word:
+    count+=1
+print(count)
+for j in word:
+    if len(j)> max and j.isalpha():
+        max=len(j)
+        w=j
+print(max)
+print(w)
